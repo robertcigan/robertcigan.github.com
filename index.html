@@ -5,219 +5,247 @@
     <title>Robert Cigán - Ruby on Rails freelancer</title>
     <meta name="description" content="Robert Cigans professional career webpage">
     <meta name="author" content="Robert Cigán">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
+    <!-- Le styles -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/custom.css" rel="stylesheet">
+    <style>
+      body {
+        padding-top: 60px; /* 60px to make the container go all the way to the bottom of the topbar */
+      }
+    </style>
+    <link href="css/bootstrap-responsive.css" rel="stylesheet">
+
+    <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]>
       <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
 
-    <!-- Le styles -->
-		<link rel="stylesheet" href="bootstrap.min.css">
-		<link rel="stylesheet" href="styles.css">
-    
-
     <!-- Le fav and touch icons -->
-    <link rel="shortcut icon" href="images/favicon.ico">
-		<script type="text/javascript">
+    <link rel="shortcut icon" href="ico/favicon.ico">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="ico/apple-touch-icon-114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="ico/apple-touch-icon-72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="ico/apple-touch-icon-57-precomposed.png">
+    
+    <script type="text/javascript">
 
-		  var _gaq = _gaq || [];
-		  _gaq.push(['_setAccount', 'UA-4612306-2']);
-		  _gaq.push(['_trackPageview']);
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-4612306-2']);
+      _gaq.push(['_trackPageview']);
 
-		  (function() {
-		    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-		    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-		    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-		  })();
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
 
-		</script>
+    </script>
   </head>
 
-  <body>
-
-    <div class="topbar">
-      <div class="fill">
+  <body data-spy="scroll">
+    <div class="navbar navbar-fixed-top">
+      <div class="navbar-inner">
         <div class="container">
+          <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </a>
           <a class="brand" href="#">Robert Cigán</a>
-          <ul class="nav">
-            <li><a href="#about">About Me</a></li>
-						<li><a href="#work">Work</a></li>
-						<li><a href="#references">References</a></li>
-          </ul>
+          <div class="nav-collapse">
+            <ul class="nav">
+              <li><a href="#about">About Me</a></li>
+              <li><a href="#work">Work</a></li>
+              <li><a href="#references">References</a></li>
+            </ul>
+          </div>
         </div>
       </div>
     </div>
 
     <div class="container">
       <div class="content">
-    		<div class="page-header alert-message info row">
-		      <div class="span10">
-		        <h1>Hi, I'm Robert Cigán<br />
-							<small>a <a href="http://www.rubyonrails.org" rel="external">Ruby on Rails</a> developer and computer enthusiasist</small>
-						</h1>
-		      </div>
-		      <div class="span6">
-		        <address>
-							Robert Cigán<br />
-							<a href="mailto:&#099;&#105;&#103;&#097;&#110;&#046;&#114;&#111;&#098;&#101;&#114;&#116;&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;">&#099;&#105;&#103;&#097;&#110;&#046;&#114;&#111;&#098;&#101;&#114;&#116;&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;</a>
-							<a href="mailto:&#114;&#111;&#098;&#101;&#114;&#116;&#064;&#051;&#108;&#097;&#110;&#099;&#101;&#114;&#115;&#046;&#099;&#122;">&#114;&#111;&#098;&#101;&#114;&#116;&#064;&#051;&#108;&#097;&#110;&#099;&#101;&#114;&#115;&#046;&#099;&#122;</a><br />
-							Skype: <a href="callto://robert.cigan">robert.cigan</a><br />
-							<a href="tel:+420 608 560 735">+420 608 560 735</a><br />
-							Czech Republic
-						</address>
-		      </div>
-				</div>
-        
-				<div class="row">
-          <div class="span11">
-            <h2 id="about">About Me</h2>
-						<p> 
-							I'm a computer enthusiasists - a little bit of nerd and geek. I'm also a husband and a father. In 2011 I&nbsp;started being a freelancer and my life
-							changed a lot. It became more dynamic and suprising and helped me a lot to become a better professional Ruby on Rails developer. 
-						</p>
-						<p class="center alert-message success block-message">Ruby on Rails, computers, husband &amp; father, RC cars</p>
-						<p>
-							I use MacBook Pro as a developer and I really love it. In a very small amount of free time that I can have I usually race <a href="http://www.e-maxx.cz/" rel="external" title="E-Maxx.cz">RC offroad cars</a>.
-						</p>
-						
-            <h2 class="spacy" id="work">Work</h2>
-						<p>I have been working with Ruby on Rails for couple of years. My first encounter with a real MVC was in Java (Tapestry/Spring/Hibernate).
-							It was a great refreshing time after some PHP work which always ended up with headaches. In 2006 I tried using Rails (0.9beta at that time) and I was thrilled by it's 
-							convenient way of doing things right and easy. Since that I work as a full time Rails developer. The more Rails is evolving the more
-							I'm happy and satisfied with the Rails and Ruby language.
-						</p>
-						
-						<p>
-							As I'm not a frontend specialist nor designer, I do my best at creating and developing Ruby on Rails backends and database design. To bring the best I use and I really love
-							the test driven development. 
-						</p>
-						
-						<p class="center alert-message success block-message">
-							Java =&gt; Ruby on Rails, since 2006 0.9b, &lt;3 Ruby on Rails,
-							backend developer, startups, long relationship with clients							
-						</p>
-						
-						<p>Typical client of mine is a startup owner that takes from Rails development the ease and speed of bringing web apps quickly online, or well established company
-							with a need of custom web application to help grow their business.
-						</p>
-						
-						<p>I'm currently working in a team of 3 developers - we call ourselves 3lancers. We have been working together for a long time. Me and <a href="http://www.linkedin.com/in/martinhladil" rel="external">Martin</a> are backend developers and 
-							<a href="http://www.tomaspavelka.cz/" rel="external">Tom</a> is a frontend specialist. 
-							That combinations showed us a true power of a small development team. We work together on our clients projects, share the same office and thoughts.
-						</p>
-						
-						<p>As a developer I'm used to work on projects for quite a long time so my priority is to establish a long term relationship that also ensures my clients that I won't quit a month or two after the project is done.
-							There's always a lot of work later.
-						</p>
-
-						<p class="center alert-message warning block-message">
-							<strong>My vision is to be a part of something successful that I can work on and use at the same time.</strong>
-						</p>
-						
-						<p>If you'd like to know more about me, my skills and anything that I can offer, please don't hesitate and let me know. I'm working in a small team of talended and smart people.
-							In case I'm not available for hire I know other great developers that might be interested, you never know.
-						</p>
-						
-						<p class="center alert-message info block-message">
-							<a href="https://github.com/robertcigan" rel="external">github.com/robertcigan</a><br />
-							<a href="http://www.linkedin.com/in/robertcigan" rel="external">linkedin.com/in/robertcigan</a><br />
-							<a href="http://workingwithrails.com/person/6537-robert-cig-n" rel="external">workingwithrails.com/person/6537-robert-cig-n</a><br />
-							<a href="http://twitter.com/#!/robertcigan" rel="external">@robertcigan</a>
-						</p>
-
-						<h2 class="spacy" id="references">References</h2>
-						<p><a href="http://knightmedianetworks.com/" rel="external">Knight Media Networks</a></strong> has been outsourcing a lot of projects to me and the team I work with since 2009.
-							The most important and successful project I have worked on is <a href="http://www.iequine.com" rel="external">iEquine.com</a> which is a social startup for the equine industry.
-							One of the first projects for this client was rebuilding the <a href="http://www.arabhorse.com/" rel="external">Arabhorse.com</a> portal, which is quite a large CMS based website.
-						</p>
-
-						<div class="media-grid center">
-							<a href="http://www.iequine.com" rel="external"><img class="thumbnail" src="iequine.png" alt="iEquine.com"/></a>
-							<a href="http://www.arabhorse.com"><img class="thumbnail" src="arabhorse.png" alt="Arabhorse.com"/></a>
-						</div>
-						
-						<p>They also build custom CMS based websites for their customers and I help them to create and maintain these custom built websites
-							and the backend that runs these.
-						</p>
-						
-						<hr />
-										
-						<p>I partially participated in <strong>Splore.com</strong> backend development (lead developer <a href="http://www.linkedin.com/in/martinhladil" rel="external">Martin Hladil</a> and frontend designer <a href="http://www.tomaspavelka.cz/" rel="external">Tomáš Pavelka</a>).
-							Splore is a startup to connect people by meaningful way through internet based social networking.
-						</p>
-
-						<div class="media-grid center single">
-							<a href="http://www.splore.com" rel="external"><img class="thumbnail" src="splore.png" alt="Splore.com"/></a>
-						</div>
-
-						<hr />						
-						
-						<p>I was a teamleader and developer contracted by <a href="http://www.skvely.cz/">Skvělý.CZ</a> that built university internal system the <strong>ISIS</strong> for the <a href="http://www.vsp.cz">VSP a.s.</a> university.
-							The system runs various types of agenda a covers entire university ecosystem. This was the largest and most complex project I have ever came across.
-						</p>
-										
-						<hr />
-						
-						<p>My latest project that I'm working on is a <strong>reservation system</strong> for a sport center.</p>
-						
-						<p>
-							There's been a lot of other Ruby on Rails projects that I've built, worked on or participated in since 2006.
-						</p>
+        <div class="hero-unit">
+          <div class="row">
+            <div class="span7">
+              <div class="page-header">
+                <h1><span class="hidden-phone">Hi, I'm </span><span class="nowrap">Robert Cigán</span><br />
+                  <small>a <a href="http://www.rubyonrails.org" rel="external">Ruby on Rails</a> developer, freelancer and computer enthusiasist</small>
+                </h1>
+              </div>
+              <address>
+                Robert Cigán<br />
+                <a href="mailto:&#099;&#105;&#103;&#097;&#110;&#046;&#114;&#111;&#098;&#101;&#114;&#116;&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;">&#099;&#105;&#103;&#097;&#110;&#046;&#114;&#111;&#098;&#101;&#114;&#116;&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;</a>
+                <a href="mailto:&#114;&#111;&#098;&#101;&#114;&#116;&#064;&#051;&#108;&#097;&#110;&#099;&#101;&#114;&#115;&#046;&#099;&#122;">&#114;&#111;&#098;&#101;&#114;&#116;&#064;&#051;&#108;&#097;&#110;&#099;&#101;&#114;&#115;&#046;&#099;&#122;</a><br />
+                Skype: <a href="callto://robert.cigan">robert.cigan</a><br />
+                <a href="tel:+420 608 560 735">+420 608 560 735</a><br />
+                Czech Republic
+              </address>
+            </div>
+            <img class="thumbnail span3 hidden-phone float-right" src="img/robertcigan.jpg" alt="Me at Hoover Dam, Colorado river, Black Canyon, Arizona side" title="Me at Hoover Dam, Colorado river, Black Canyon, Arizona side"/>
+            <img class="thumbnail span3 visible-phone" src="img/robertcigan.jpg" alt="Me at Hoover Dam, Colorado river, Black Canyon, Arizona side" title="Me at Hoover Dam, Colorado river, Black Canyon, Arizona side"/>
           </div>
-          <div class="span5">
-						<div id="avatar">
-							<img style="width: 100%;" class="thumbnail" src="robertcigan.jpg" alt="Me at Hoover Dam, Colorado river, Black Canyon, Arizona side" title="Me at Hoover Dam, Colorado river, Black Canyon, Arizona side"/></a>
-						</div>
-						<div id="railsberry">
-						  <a href="http://railsberry.com/" title="I'm definitely attending Railsberry">
-						    <img alt="Railsberry badge" src="http://railsberry.com/images/railsberry_badge.png" />
-						  </a>
-						</div>
-						<script src="http://widgets.twimg.com/j/2/widget.js"></script>
-						<script>
-							new TWTR.Widget({
-							  version: 2,
-							  type: 'profile',
-							  rpp: 10,
-							  interval: 30000,
-							  width: 280,
-							  height: 600,
-							  theme: {
-							    shell: {
-							      background: '#8f8f8f',
-							      color: '#ffffff'
-							    },
-							    tweets: {
-							      background: '#ffffff',
-							      color: '#000000',
-							      links: '#666'
-							    }
-							  },
-							  features: {
-							    scrollbar: false,
-							    loop: false,
-							    live: true,
-							    hashtags: true,
-							    timestamp: true,
-							    avatars: false,
-							    behavior: 'all'
-							  }
-							}).render().setUser('robertcigan').start();
-						</script>
+        </div>
+
+        <div class="row">
+          <div class="span8">
+            <h2 id="about">About Me</h2>
+            <p> 
+              I'm a computer enthusiasists - a little bit of nerd and geek. I'm also a husband and a father. In 2011 I&nbsp;started being a freelancer and my life
+              changed a lot. It became more dynamic and suprising and helped me a lot to become a better professional Ruby on Rails developer. 
+            </p>
+            <p class="center alert alert-success block-message">Ruby on Rails, computers, husband &amp; father, RC cars</p>
+            <p>
+              I use MacBook Pro as a developer and I really love it. In a very small amount of free time that I can have I usually race <a href="http://www.e-maxx.cz/" rel="external" title="E-Maxx.cz">RC offroad cars</a>.
+            </p>
+            
+            <h2 class="spacy" id="work">Work</h2>
+            <p>I have been working with Ruby on Rails for couple of years. My first encounter with a real MVC was in Java (Tapestry/Spring/Hibernate).
+              It was a great refreshing time after some PHP work which always ended up with headaches. In 2006 I tried using Rails (0.9beta at that time) and I was thrilled by it's 
+              convenient way of doing things right and easy. Since that I work as a full time Rails developer. The more Rails is evolving the more
+              I'm happy and satisfied with the Rails and Ruby language.
+            </p>
+            
+            <p>
+              As I'm not a frontend specialist nor designer, I do my best at creating and developing Ruby on Rails backends and database design. To bring the best I use and I really love
+              the test driven development. 
+            </p>
+            
+            <p class="center alert alert-success block-message">
+              Java =&gt; Ruby on Rails, since 2006 0.9b, &lt;3 Ruby on Rails,
+              backend developer, startups, long relationship with clients              
+            </p>
+            
+            <p>Typical client of mine is a startup owner that takes from Rails development the ease and speed of bringing web apps quickly online, or well established company
+              with a need of custom web application to help grow their business.
+            </p>
+            
+            <p>I'm currently working in a team of 3 developers - we call ourselves 3lancers. We have been working together for a long time. Me and <a href="http://www.linkedin.com/in/martinhladil" rel="external">Martin</a> are backend developers and 
+              <a href="http://www.tomaspavelka.cz/" rel="external">Tom</a> is a frontend specialist. 
+              That combinations showed us a true power of a small development team. We work together on our clients projects, share the same office and thoughts.
+            </p>
+            
+            <p>As a developer I'm used to work on projects for quite a long time so my priority is to establish a long term relationship that also ensures my clients that I won't quit a month or two after the project is done.
+              There's always a lot of work later.
+            </p>
+
+            <p class="center alert alert-warning block-message">
+              <strong>My vision is to be a part of something successful that I can work on and use at the same time.</strong>
+            </p>
+            
+            <p>If you'd like to know more about me, my skills and anything that I can offer, please don't hesitate and let me know. I'm working in a small team of talended and smart people.
+              In case I'm not available for hire I know other great developers that might be interested, you never know.
+            </p>
+            
+            <p class="center alert alert-info block-message">
+              <a href="https://github.com/robertcigan" rel="external">github.com/robertcigan</a><br />
+              <a href="http://www.linkedin.com/in/robertcigan" rel="external">linkedin.com/in/robertcigan</a><br />
+              <a href="http://workingwithrails.com/person/6537-robert-cig-n" rel="external">workingwithrails.com/person/6537-robert-cig-n</a><br />
+              <a href="http://twitter.com/#!/robertcigan" rel="external">@robertcigan</a>
+            </p>
+
+            <h2 class="spacy" id="references">References</h2>
+            <p><a href="http://knightmedianetworks.com/" rel="external">Knight Media Networks</a></strong> has been outsourcing a lot of projects to me and the team I work with since 2009.
+              The most important and successful project I have worked on is <a href="http://www.iequine.com" rel="external">iEquine.com</a> which is a social startup for the equine industry.
+              One of the first projects for this client was rebuilding the <a href="http://www.arabhorse.com/" rel="external">Arabhorse.com</a> portal, which is quite a large CMS based website.
+            </p>
+
+            <ul class="thumbnails horizontal">
+              <li class="span4">
+                <a class="thumbnail" href="http://www.iequine.com" rel="external"><img src="img/iequine.png" alt="iEquine.com"/></a>
+              </li>
+              <li class="span4">
+                <a class="thumbnail" href="http://www.arabhorse.com"><img src="img/arabhorse.png" alt="Arabhorse.com"/></a>
+              </li>
+            </ul>
+            
+            <p>They also build custom CMS based websites for their customers and I help them to create and maintain these custom built websites
+              and the backend that runs these.
+            </p>
+            
+            <hr />
+                    
+            <p>I partially participated in <strong>Splore.com</strong> backend development (lead developer <a href="http://www.linkedin.com/in/martinhladil" rel="external">Martin Hladil</a> and frontend designer <a href="http://www.tomaspavelka.cz/" rel="external">Tomáš Pavelka</a>).
+              Splore is a startup to connect people by meaningful way through internet based social networking.
+            </p>
+            
+            <ul class="thumbnails">
+              <li class="span4">
+                <a class="thumbnail" href="http://www.splore.com" rel="external"><img src="img/splore.png" alt="Splore.com"/></a>
+              </li>
+            </ul>
+
+            <hr />            
+            
+            <p>I was a teamleader and developer contracted by <a href="http://www.skvely.cz/">Skvělý.CZ</a> that built university internal system the <strong>ISIS</strong> for the <a href="http://www.vsp.cz">VSP a.s.</a> university.
+              The system runs various types of agenda a covers entire university ecosystem. This was the largest and most complex project I have ever came across.
+            </p>
+                    
+            <hr />
+            
+            <p>My latest project that I'm working on is a <strong>reservation system</strong> for a sport center.</p>
+            
+            <p>
+              There's been a lot of other Ruby on Rails projects that I've built, worked on or participated in since 2006.
+            </p>
+          </div>
+          <div class="span4">
+            
+            <div class="hidden-phone">
+              <script src="http://widgets.twimg.com/j/2/widget.js"></script>
+              <script>
+                new TWTR.Widget({
+                  version: 2,
+                  type: 'profile',
+                  rpp: 10,
+                  interval: 30000,
+                  width: "100%",
+                  height: 600,
+                  theme: {
+                    shell: {
+                      background: '#8f8f8f',
+                      color: '#ffffff'
+                    },
+                    tweets: {
+                      background: '#ffffff',
+                      color: '#000000',
+                      links: '#666'
+                    }
+                  },
+                  features: {
+                    scrollbar: false,
+                    loop: false,
+                    live: true,
+                    hashtags: true,
+                    timestamp: true,
+                    avatars: false,
+                    behavior: 'all'
+                  }
+                }).render().setUser('robertcigan').start();
+              </script>
+            </div>
           </div>
         </div>
 
       </div>
-
-      <footer class="row">
-				<p class="span8">
-					<small>theme based on <a href="http://twitter.github.com/bootstrap/">Twitter Bootstrap</a></small>
-				</p>
-
-				<p class="span8">
-					<small>&copy; Robert Cigán 2011</small>
-				</p>
+      <hr />
+      <footer class="row">        
+        <p class="span12">
+          <small>theme based on <a href="http://twitter.github.com/bootstrap/">Twitter Bootstrap</a></small>
+          <small class="float-right">&copy; Robert Cigán 2012</small>
+        </p>
       </footer>
     </div> <!-- /container -->
+    
+    <!-- Le javascript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap-transition.js"></script>
+    <script src="js/bootstrap-scrollspy.js"></script>
+    <script src="js/bootstrap-collapse.js"></script>
   </body>
 </html>
+   

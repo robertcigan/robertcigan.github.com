@@ -1,0 +1,33 @@
+/* Override some defaults */
+html, body {
+}
+
+body {
+	font-size: 14px;
+	color: #404040;
+}
+
+.container p{
+	font-size:  14px;
+}
+
+.center {
+	text-align: center;
+}
+
+h1 {
+  font-size: 40px !important;
+}
+
+
+h2.spacy {
+	margin-top: 30px;
+}
+
+.float-right {
+  float: right !important;
+}
+
+.nowrap {
+  white-space: nowrap;
+}
